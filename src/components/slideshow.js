@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserView, MobileView } from 'react-device-detect';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './slideshow.css'
