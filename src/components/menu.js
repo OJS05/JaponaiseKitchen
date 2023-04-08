@@ -227,7 +227,7 @@ class Menu extends React.Component {
                         <div className="home-hand-roll menu-div">
                             <div className="menu-container">
                                 <span className="menu-category">HAND ROLL</span>
-                                <span className="menu-category">1PC</span>
+                                <span className="menu-category breakpoint">1PC</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Fresh Veggie</span>
@@ -300,7 +300,7 @@ class Menu extends React.Component {
                         <div className="home-inside-out menu-div">
                             <div className="menu-container">
                                 <span className="menu-category">INSIDE OUT</span>
-                                <span className="menu-category">6PC</span>
+                                <span className="menu-category breakpoint">6PC</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Tuna Avo</span>
@@ -337,7 +337,7 @@ class Menu extends React.Component {
                         <div className="home-hosomaki menu-div">
                             <div className="menu-container">
                                 <span className="menu-category">HOSOMAKI</span>
-                                <span className="menu-category">6PC</span>
+                                <span className="menu-category breakpoint">6PC</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Avocado</span>
@@ -363,7 +363,7 @@ class Menu extends React.Component {
                         <div className="home-special-roll menu-div">
                             <div className="menu-container">
                                 <span className="menu-category">SPECIAL ROLL</span>
-                                <span className="menu-category">8PC</span>
+                                <span className="menu-category breakpoint">8PC</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Vegan</span>
@@ -387,7 +387,7 @@ class Menu extends React.Component {
                         <div className="home-nigiri menu-div">
                             <div className="menu-container">
                                 <span className="menu-category">NIGIRI</span>
-                                <span className="menu-category">2PC</span>
+                                <span className="menu-category breakpoint">2PC</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Inari</span>
@@ -413,7 +413,7 @@ class Menu extends React.Component {
                         <div className="home-sushi-tempura menu-div">
                             <div className="menu-container">
                                 <span className="menu-category">SUSHI TEMPURA</span>
-                                <span className="menu-category">1PC</span>
+                                <span className="menu-category breakpoint">1PC</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Salmon</span>
@@ -507,9 +507,9 @@ class Menu extends React.Component {
                     </div>
                     <div className="home-column32 menu-column">
                         <div className="home-tempura menu-div">
-                            <div className="menu-container">
+                            <div className="menu-container tempura">
                                 <span className="menu-category">TEMPURA</span>
-                                <span className="menu-category">W/ DIP +1</span>
+                                <span className="menu-category breakpoint">W/ DIP +1</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Daikon</span>
