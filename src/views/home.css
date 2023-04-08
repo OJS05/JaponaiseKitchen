@@ -13,7 +13,7 @@
   display: flex;
   padding: 10vw;
   background-size: cover;
-  background-image: url("/playground_assets/upscaled_heart.jpg");
+  background-image: url("/playground_assets/upscaled_heart.webp");
   background-position: 50% 75%;
   background-attachment: fixed;
 }
@@ -22,7 +22,7 @@
   height: 80vh;
   display: flex;
   background-size: cover;
-  background-image: url("/playground_assets/upscaled_heart.jpg");
+  background-image: url("/playground_assets/upscaled_heart.webp");
   background-position: center;
   background-attachment: fixed;
 }
@@ -31,7 +31,7 @@
   height: 40vh;
   display: flex;
   background-size: cover;
-  background-image: url("/playground_assets/upscaled_lips.jpg");
+  background-image: url("/playground_assets/upscaled_lips.webp");
   background-position: 50% 85%;
   background-attachment: fixed;
 }

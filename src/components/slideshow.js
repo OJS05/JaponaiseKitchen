@@ -2,12 +2,12 @@ import React from 'react'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './slideshow.css'
-import one from './slide_images/1.jpeg'
-import two from './slide_images/2.jpeg'
-import three from './slide_images/3.jpeg'
-import four from './slide_images/4.jpeg'
-import five from './slide_images/5.jpeg'
-import six from './slide_images/6.jpeg'
+import one from './slide_images/1.webp'
+import two from './slide_images/2.webp'
+import three from './slide_images/3.webp'
+import four from './slide_images/4.webp'
+import five from './slide_images/5.webp'
+import six from './slide_images/6.webp'
     
     
 const slideImages = [
