@@ -1,11 +1,9 @@
-FROM node:18-alpine as builder
+FROM node:19-alpine as builder
 WORKDIR /app
 COPY package.json ./
-COPY package-lock.json ./
-RUN npm update -g npm
-RUN npm install --d
+RUN yarn
 COPY . ./
-RUN npm run build
+RUN yarn build
 
 FROM nginx:stable-alpine
 COPY --from=builder /app/build /usr/share/nginx/html
