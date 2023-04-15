@@ -38,7 +38,7 @@ const Home = (props) => {
           <div className="about-div">
             <span className="home-text">CONTACT</span>
             <a href="tel:0266855124" className="home-link">02 6685 5124</a>
-            <a href="mailto:info@japonaisekitchen.com?subject=" className="home-link1">info@japonaisekitchen.com</a>
+            <span className="home-text">Please call to reserve a table</span>
           </div>
         </div>
       </div>
