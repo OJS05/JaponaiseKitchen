@@ -55,7 +55,7 @@ const Home = (props) => {
           </span>
         </div>
         <div className="home-container159">
-          <span className="home-text">© Japonaise Kitchen 2022</span>
+          <span className="home-text">© Japonaise Kitchen 2023</span>
         </div>
       </div>
     </div>
