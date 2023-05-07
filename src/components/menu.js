@@ -50,10 +50,6 @@ class Menu extends React.Component {
                                 <span className="menu-price">23.8</span>
                             </div>
                             <div className="menu-container">
-                                <span className="menu-item">Teriyaki Katsu</span>
-                                <span className="menu-price">22.8</span>
-                            </div>
-                            <div className="menu-container">
                                 <span className="menu-item">Teriyaki Chicken</span>
                                 <span className="menu-price">19.8</span>
                             </div>
@@ -64,6 +60,10 @@ class Menu extends React.Component {
                             <div className="menu-container">
                                 <span className="menu-item">Teriyaki Pork</span>
                                 <span className="menu-price">20.8</span>
+                            </div>
+                            <div className="menu-container">
+                                <span className="menu-item">Teriyaki Beef</span>
+                                <span className="menu-price">24.8</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Teriyaki Tofu</span>
@@ -78,8 +78,12 @@ class Menu extends React.Component {
                                 <span className="menu-price">24.8</span>
                             </div>
                             <div className="menu-container">
-                                <span className="menu-item">Chicken Katsu</span>
+                                <span className="menu-item">Chicken Katsudon</span>
                                 <span className="menu-price">21.8</span>
+                            </div>
+                            <div className="menu-container">
+                                <span className="menu-item terikatsu">Teriyaki Chicken Katsu</span>
+                                <span className="menu-price terikatsu">22.8</span>
                             </div>
                         </div>
                     </div>
@@ -282,7 +286,7 @@ class Menu extends React.Component {
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Salmon (7pc)</span>
-                                <span className="menu-price">18.8</span>
+                                <span className="menu-price">16.8</span>
                             </div>
                             <div className="menu-container">
                                 <span className="menu-item">Tuna (5pc)</span>

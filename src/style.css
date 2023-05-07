@@ -116,6 +116,9 @@
   margin-top: 16px;
   margin-left: 10px;
 }
+.terikatsu {
+  font-size: 16px;
+}
 .menu-price {
   color: var(--dl-color-darkmode-100);
   margin-top: 16px;
