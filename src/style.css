@@ -96,6 +96,11 @@
 .menu-button:hover {
   color: #b8b2a7;
 }
+.centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .menu-div {
   margin-top: 32px;
   height: 100%;
